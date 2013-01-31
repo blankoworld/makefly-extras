@@ -1,0 +1,10 @@
+# TODO LIST
+
+## For Templates
+
+  * Create a script that use a picture + a file to describe what a given template does and create a HTML file to display this "theme".
+  * Create a mini-doc to explain how to use lunamark and/or markdown.lua
+
+## General
+
+  * Add README file in french
