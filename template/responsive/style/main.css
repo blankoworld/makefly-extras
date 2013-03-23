@@ -56,9 +56,10 @@ textarea {
 }
 
 pre {
-    background: #999;
+    background: #c6c6c6;
     color: black;
     overflow: auto;
+    padding: 2px 5px;
 }
 
 blockquote {
@@ -120,10 +121,20 @@ body {
 } 
 
 .header-container form#search {
-    position: absolute;
     width: auto;
-    top: 15px;
-    right: 15px;
+}
+
+.header-container form#search input#text {
+    border: medium solid #e44d26;
+}
+
+.header-container form#search input#validate_button {
+    display: inline-block;
+    background: #e44d26;
+    border: 0;
+    padding: 4px 5px;
+    color: white;
+    font-weight: bold;
 }
 
 .footer-container,
@@ -238,19 +249,11 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 480px) {
+  form#search {
+    margin-bottom: 15px;
+  }
+}
 
 /* ==========================================================================
    Media Queries
