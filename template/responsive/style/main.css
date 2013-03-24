@@ -479,3 +479,25 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+
+/* Expression Libre Identica */
+#eli_widget {
+    display: inline-block;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#eli_widget header {
+    background: 0;
+    border: 0;
+}
+
+#eli_widget article {
+    width: auto;
+}
+
+#eli_widget article a {
+    color: white;
+    text-decoration: underline;
+}
