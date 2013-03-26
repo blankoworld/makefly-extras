@@ -3,7 +3,8 @@ button,
 input,
 select,
 textarea {
-    color: #999;
+    color: black;
+    background: #eee;
 }
 
 ::-moz-selection {
@@ -26,24 +27,24 @@ pre {
 }
 
 blockquote {
-    border-color: #ffd700;
+    border-color: #f3c400;
 }
 
 a {
-    color: #ffd700;
+    color: #f3c400;
 }
 
 a:visited {
-    color: #ffd700;
+    color: #f3c400;
 }
 
 a:hover {
-    color: #ffd700;
+    color: #f3c400;
 }
 
 .header-container {
     color: black;
-    border-color: #f3c400;
+    border-color: #ffd700;
 }
 
 .header-container h1.title a {
@@ -59,23 +60,23 @@ a:hover {
 
 .header-container form#search input#text {
     background: #eee;
-    border-color: #f3c400;
+    border-color: #ffd700;
 }
 
 .header-container form#search input#validate_button {
-    background: #f3c400;
+    background: #ffd700;
     color: white;
 }
 
 .footer-container,
 .main aside {
-    border-color: #f3c400;
+    border-color: #ffd700;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #ffd700;
+    background: #f3c400;
 }
 
 .title {
@@ -93,11 +94,11 @@ article h1 a:hover {
 
 .read_more a {
     color: white;
-    background: #ffd700;
+    background: #f3c400;
 }
 
 article footer p span.label {
-    background: #ffd700;
+    background: #f3c400;
     color: white;
 }
 
@@ -114,7 +115,7 @@ nav ul {
 
 nav a {
     color: white;
-    background: #f3c400;
+    background: #ffd700;
 }
 
 nav a:hover,
@@ -171,9 +172,9 @@ nav a:hover {
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #ffd700;
-           -moz-box-shadow: 0 5px 10px #ffd700;
-                box-shadow: 0 5px 10px #ffd700;
+        -webkit-box-shadow: 0 5px 10px #f3c400;
+           -moz-box-shadow: 0 5px 10px #f3c400;
+                box-shadow: 0 5px 10px #f3c400;
     }
 }
 
