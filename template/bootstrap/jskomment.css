@@ -21,7 +21,7 @@ padding:4px;
 padding: 0 0 0 5px;
 margin-top:7px;
 margin-bottom:20px;
-border-left: medium solid #FFD700;
+border-left: medium solid black;
 }
 
 .jskomment_header a {
@@ -41,7 +41,7 @@ text-decoration: underline;
 
 .jskomment_input2 {
 vertical-align:top;
-width: 608px;/* 500 + 4*2 (related to jskomment.width*/
+width: 95%;
 margin:4px;
 margin-left:10px;
 }

@@ -5,12 +5,13 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="${BLOG_CHARSET}">
+        <meta name="generator" content="Makefly ${VERSION}">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>${BLOG_TITLE} - ${TITLE}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="${BASE_URL}/css/bootstrap.min.css">
+        <link rel="stylesheet" href="${BASE_URL}/bootstrap.min.css">
         <style>
             body {
                 padding-top: 60px;
@@ -19,7 +20,6 @@
         </style>
         <link rel="stylesheet" type="text/css" media="all" href="${BASE_URL}/${JSKOMMENT_CSS}">
         <link rel="stylesheet" type="text/css" media="all" href="${BASE_URL}/${ELI_CSS}">
-        <link rel="stylesheet" href="${BASE_URL}/css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="${BASE_URL}/${CSS_FILE}" title="${CSS_NAME}">
         <link type="text/css" rel="stylesheet" media="screen" href="${BASE_URL}/${CSS_COLOR_FILE}" title="${CSS_NAME}" />
         <link rel="alternate" type="application/rss+xml" title="${RSS_FEED_NAME}" href="${BASE_URL}/rss.xml" />
@@ -62,3 +62,5 @@
 
         <div class="container">
 
+            <div class="row">
+                <div class="span9">
